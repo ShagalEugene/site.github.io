@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'customFont';
+    src: url('../fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 body { 
     font-family: 'customFont'; 
 }
@@ -164,14 +172,6 @@ form button {
 .uncorrect, input:invalid:not(:placeholder-shown){
     box-shadow: 0 0 3px 2px #7768AE inset;
     /* background: linear-gradient(90deg, rgb(163, 139, 248) 0%, rgb(184, 165, 255) 100%); */
-}
-
-@font-face {
-    font-family: 'customFont';
-    src: url('../fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
 }
 
 .transmission {
