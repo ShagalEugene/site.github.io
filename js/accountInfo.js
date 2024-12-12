@@ -31,5 +31,5 @@ document.getElementById("clear").addEventListener("click", () => {
 
 document.getElementById("exit").addEventListener("click", () => {
     localStorage.removeItem(currentAccount);
-    window.location.replace("/index.html");
+    window.location.href = "/index.html";
 });
