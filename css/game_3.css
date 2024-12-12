@@ -1,0 +1,27 @@
+.motion-path {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    outline: 1px dashed gray;
+    margin-top: 100px;
+}
+
+.square {
+    pointer-events: none;
+    position: absolute;
+    width: 50px;
+    aspect-ratio: 1/1;
+    margin: 1px;
+  }
+  
+  .car_pic {
+    background-image: url(../svg/car.svg);
+    background-size: cover;
+  }
+  
+  .follow-path {
+    position: absolute;
+    top: -27px;
+    left: -27px;
+  }
